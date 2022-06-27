@@ -1,0 +1,12 @@
+﻿/* Mahlau Regular */
+@font-face {
+    font-family: 'MahlauRegular';
+    src: url('/fonts/MahlauEFOP-Regular/mahlauefop-regular-webfont.eot');
+    src: url('/fonts/MahlauEFOP-Regular/mahlauefop-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/MahlauEFOP-Regular/mahlauefop-regular-webfont.woff2') format('woff2'),
+         url('/fonts/MahlauEFOP-Regular/mahlauefop-regular-webfont.woff') format('woff'),
+         url('/fonts/MahlauEFOP-Regular/mahlauefop-regular-webfont.ttf') format('truetype'),
+         url('/fonts/MahlauEFOP-Regular/mahlauefop-regular-webfont.svg#MahlauRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

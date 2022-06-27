@@ -1,0 +1,269 @@
+/* x  >> 231px x 231px */
+/* x2 >> 486px x 231px */
+/* x3 >> 742px x 231px */
+/* x4 >> 1000px x 486px*/
+/* x5 >> 1255px x 486px*/
+/* L  >> 486px x 486px */
+
+/*#region MITCHELL1 */
+#ProDemand {
+  background-image: url('../img/mitchell1.prodemand.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ProDemand.selected {
+  background-image: url('../img/mitchell1.prodemand.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#ProDemandMobile {
+  background-image: url('../img/mitchell1.prodemand.mobile.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ProDemandMobile.selected {
+  background-image: url('../img/mitchell1.prodemand.mobile.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#ProDemandTruckLabor {
+  background-image: url('../img/mitchell1.prodemand.truck.labor.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ProDemandTruckLabor.selected {
+  background-image: url('../img/mitchell1.prodemand.truck.labor.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#ShopKeyPro {
+  background-image: url('../img/mitchell1.shopkeypro.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ShopKeyPro.selected {
+  background-image: url('../img/mitchell1.shopkeypro.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*#endregion MITCHELL1 */
+
+/*#region ADIDAS GOLF */
+#adidasGolf {
+  background-image: url('../img/adidas.Golf.1.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#adidasGolf.selected {
+  background-image: url('../img/adidas.Golf.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#adidasClimaCool {
+  background-image: url('../img/adidas.ClimaCool.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#adidasClimaCool.selected {
+  background-image: url('../img/adidas.ClimaCool.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#adidasClimaProof {
+  background-image: url('../img/adidas.ClimaProof.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#adidasClimaProof.selected {
+  background-image: url('../img/adidas.ClimaProof.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#adidasPowerband {
+  background-image: url('../img/adidas.Powerband.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#adidasPowerband.selected {
+  background-image: url('../img/adidas.Powerband.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#adidasTour360II {
+  background-image: url('../img/adidas.Tour.360.II.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#adidasTour360II.selected {
+  background-image: url('../img/adidas.Tour.360.II.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*#endregion ADIDAS GOLF */
+
+/*#region MAXFLI */
+#Maxfli {
+  background-image: url('../img/Maxfli.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Maxfli.selected {
+  background-image: url('../img/Maxfli.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*#endregion MAXFLI */
+
+/*#region TAYLORMADE GOLF */
+#TaylorMadeGolf {
+  background-image: url('../img/TaylorMadeGolf.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaylorMadeGolf.selected {
+  background-image: url('../img/TaylorMadeGolf.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#TaylorMadeGolfEurope {
+  background-image: url('../img/TaylorMadeGolf.Europe.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaylorMadeGolfEurope.selected {
+  background-image: url('../img/TaylorMadeGolf.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#TaylorMadeGolfJapan {
+  background-image: url('../img/TaylorMadeGolf.Japan.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaylorMadeGolfJapan.selected {
+  background-image: url('../img/TaylorMadeGolf.Japan.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#TaylorMadeGolfKorea {
+  background-image: url('../img/TaylorMadeGolf.Korea.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaylorMadeGolfKorea.selected {
+  background-image: url('../img/TaylorMadeGolf.Korea.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#TaylorMadeGolfCorporate {
+  background-image: url('../img/TaylorMadeGolf.Corporate.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaylorMadeGolfCorporate.selected {
+  background-image: url('../img/TaylorMadeGolf.Corporate.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#TaylorMadeGolfIAmAGolfer {
+  background-image: url('../img/TaylorMadeGolf.I.am.a.Golfer.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaylorMadeGolfIAmAGolfer.selected {
+  background-image: url('../img/TaylorMadeGolf.I.am.a.Golfer.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#TaylorMadeGolfPickOne {
+  background-image: url('../img/TaylorMadeGolf.Pick.One.jpg');
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaylorMadeGolfPickOne.selected {
+  background-image: url('../img/TaylorMadeGolf.Pick.One.detail.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*#endregion TAYLORMADE GOLF */

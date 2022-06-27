@@ -1,0 +1,454 @@
+* {
+  box-sizing: border-box;
+}
+
+/*#region HEADER TAGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1vw 0 0 0;
+  font: 3vw/5vw MahlauRegular, Arial, Helvetica, sans-serif;
+  font-weight: normal; /* for Firefox */
+  text-transform: capitalize;
+}
+
+  h1:first-of-type,
+  h2:first-of-type {
+    margin: 0;
+  }
+
+h1 {
+  font-size: 3vw;
+  line-height: 5vw;
+}
+
+h2 {
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+h3 {
+  font-size: 1.25vw;
+  line-height: 1.75vw;
+  margin: 0 0 1vw 0;
+}
+
+h4 {
+  font-size: 2.1vh;
+  line-height: 4.1vh;
+}
+
+h5 {
+  font-size: 1.8vh;
+  line-height: 3.8vh;
+}
+
+h6 {
+  font-size: 1.5vh;
+  line-height: 3.5vh;
+}
+/*#endregion HEADER TAGS */
+
+/*#region BASIC LINKS */
+a:link,
+a:active {
+  color: #4486be;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #1c4f7a;
+}
+/*#endregion BASIC LINKS */
+
+/*#region LIST DEFAULTS */
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*#endregion LIST DEFAULTS */
+
+/*#region INPUTS DEFAULTS */
+input {
+  outline: none;
+}
+/*#endregion INPUTS DEFAULTS */
+
+/*#region MISCELLANEOUS */
+:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none !important;
+}
+/*#endregion MISCELLANEOUS */
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font: .8vw/1.5vw Arial, Helvetica, sans-serif;
+  background: #f9f9f6;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5vw 0;
+  transition: all 750ms ease;
+}
+
+  header.minimized {
+    margin: 0;
+    opacity: 0;
+  }
+
+  header h1 {
+    transition: all 750ms ease;
+  }
+
+  header.minimized h1 {
+    height: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0;
+  }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80vw;
+  transition: all 750ms ease;
+}
+
+header + .gallery {
+  margin: 5vh 0 0 0;
+}
+
+/*#region TILE CONTAINERS */
+ul {
+  overflow: hidden;
+  transition: all 750ms ease;
+}
+
+  ul.vertical {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+
+  ul.horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+
+  ul.x1x1 {
+    flex: 0 0 10vw;
+    height: 10vw;
+  }
+
+  ul.x1x2 {
+    flex: 0 0 10vw;
+    height: 20vw;
+  }
+
+  ul.x1x3 {
+    flex: 0 0 10vw;
+    height: 30vw;
+  }
+
+  ul.x1x4 {
+    flex: 0 0 10vw;
+    height: 40vw;
+  }
+
+  ul.x1x5 {
+    flex: 0 0 10vw;
+    height: 50vw;
+  }
+
+  ul.x2x1 {
+    flex: 0 0 20vw;
+    height: 10vw;
+  }
+
+  ul.x2x2 {
+    flex: 0 0 20vw;
+    height: 20vw;
+  }
+
+  ul.x2x3 {
+    flex: 0 0 20vw;
+    height: 30vw;
+  }
+
+  ul.x2x4 {
+    flex: 0 0 20vw;
+    height: 40vw;
+  }
+
+  ul.x2x5 {
+    flex: 0 0 20vw;
+    height: 50vw;
+  }
+
+  ul.x3x1 {
+    flex: 0 0 30vw;
+    height: 10vw;
+  }
+
+  ul.x3x2 {
+    flex: 0 0 30vw;
+    height: 20vw;
+  }
+
+  ul.x3x3 {
+    flex: 0 0 30vw;
+    height: 30vw;
+  }
+
+  ul.x3x4 {
+    flex: 0 0 30vw;
+    height: 40vw;
+  }
+
+  ul.x3x5 {
+    flex: 0 0 30vw;
+    height: 50vw;
+  }
+
+  ul.x4x1 {
+    flex: 0 0 40vw;
+    height: 10vw;
+  }
+
+  ul.x4x2 {
+    flex: 0 0 40vw;
+    height: 20vw;
+  }
+
+  ul.x4x3 {
+    flex: 0 0 40vw;
+    height: 30vw;
+  }
+
+  ul.x4x4 {
+    flex: 0 0 40vw;
+    height: 40vw;
+  }
+
+  ul.x4x5 {
+    flex: 0 0 40vw;
+    height: 50vw;
+  }
+/*#endregion TILE CONTAINERS */
+
+/*#region TILES */
+  ul.vertical li {
+    flex: 0 1 9vw;
+    width: 9vw;
+  }
+
+    ul.vertical li.large {
+      flex: 0 0 19vw;
+      width: 19vw;
+    }
+
+    ul.vertical li.x2 {
+      flex: 0 0 19vw;
+      width: 9vw;
+    }
+
+    ul.vertical li.x3 {
+      flex: 0 0 29vw;
+      width: 9vw;
+    }
+
+  ul.horizontal li {
+    flex: 0 0 9vw;
+    height: 9vw;
+  }
+
+    ul.horizontal li.large {
+      flex: 0 0 19vw;
+      height: 19vw;
+    }
+
+    ul.horizontal li.x2 {
+      flex: 0 0 19vw;
+      height: 9vw;
+    }
+
+    ul.horizontal li.x3 {
+      flex: 0 0 29vw;
+      height: 9vw;
+    }
+
+li {
+  position: relative;
+  margin: .5vw;
+  transition: all 750ms ease;
+  background-color: grey;
+  overflow: hidden;
+}
+
+  li h2,
+  li h3,
+  li p {
+    opacity: 0;
+  }
+
+  li.selected h2,
+  li.selected h3,
+  li.selected p {
+    opacity: 1;
+    transition: opacity 500ms ease-out 500ms;
+  }
+
+  li[data-descr]:after {
+    content: attr(data-descr);
+    position: absolute;
+    bottom: .5vw;
+    left: .5vw;
+    padding: 0 .5vw;
+    color: #fff;
+    font-size: .5vw;
+    background: hsla(0, 0%, 0%, 0.75);
+  }
+
+  li.selected:after {
+    content: none;
+  }
+/*#endregion TILES */
+
+/*#region RESIZING */
+ul.vertical.selected,
+ul.horizontal.selected {
+  flex: 0 0 80vw;
+  height: 50vw;
+}
+
+  ul.minimized,
+  ul.minimized li,
+  ul.vertical.selected li,
+  ul.horizontal.selected li {
+    flex: 0 0 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    opacity: 0;
+  }
+
+ul.vertical li.selected {
+  flex: 0 0 45vw;
+  width: 80vw;
+  margin: 3vw 0;
+  padding: 2.5%;
+  opacity: 1;
+}
+
+ul.horizontal li.selected {
+  flex: 0 0 80vw;
+  height: 45vw;
+  margin: 3vw 0;
+  padding: 2.5%;
+  opacity: 1;
+}
+
+li.selected p {
+  width: 50%;
+}
+/*#endregion RESIZING */
+
+/*
+@media screen and (max-aspect-ratio: 16/9) {
+  li {
+    margin: 2vh;
+  }
+
+  li.small {
+    width: 20vh;
+    height: 20vh;
+  }
+
+  li.large {
+    width: 44vh;
+    height: 44vh;
+  }
+
+  li.vertical {
+    width: 20vh;
+    height: 44vh;
+  }
+
+  li.horizontal {
+    width: 44vh;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-aspect-ratio: 16/10) {
+  li {
+    margin: 1vh;
+  }
+
+  li.small {
+      width: 20vh;
+      height: 20vh;
+  }
+
+  li.large {
+      width: 42vh;
+      height: 42vh;
+  }
+
+  li.vertical {
+      width: 20vh;
+      height: 42vh;
+  }
+
+  li.horizontal {
+      width: 42vh;
+      height: 20vh;
+  }
+}
+*/
+
+/*#region I STILL HATE YOU IE... WTF IE10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+/*#endregion I STILL HATE YOU IE... WTF IE10+ */
